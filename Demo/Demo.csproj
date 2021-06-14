@@ -114,6 +114,7 @@
     <Content Include="ch9-4_1.aspx" />
     <Content Include="chex1_1.aspx" />
     <Content Include="chex1_2S.aspx" />
+    <Content Include="chex2_1.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -473,6 +474,13 @@
     </Compile>
     <Compile Include="chex1_2S.aspx.designer.cs">
       <DependentUpon>chex1_2S.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chex2_1.aspx.cs">
+      <DependentUpon>chex2_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chex2_1.aspx.designer.cs">
+      <DependentUpon>chex2_1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
