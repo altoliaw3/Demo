@@ -10,7 +10,10 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Menu ID="mu_Tag" runat="server" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" Orientation="Horizontal" StaticSubMenuIndent="10px">
+            <asp:Menu ID="mu_Tag" runat="server" BackColor="#B5C7DE" 
+                DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+                ForeColor="#284E98" Orientation="Horizontal" StaticSubMenuIndent="10px"
+                OnMenuItemClick="Menu1_MenuItemClick">
                 <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
                 <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                 <DynamicMenuStyle BackColor="#B5C7DE" />
