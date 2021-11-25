@@ -8,7 +8,11 @@ using System.Web.UI.WebControls;
 namespace WebApp_F {
     public partial class ch6_2 : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
+            //UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
+        }
 
-        }        
+        protected void btn_Submit_Click(object sender, EventArgs e) {
+            lb_Text.Text = tb_Id.Text;
+        }
     }
 }

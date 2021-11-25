@@ -14,7 +14,7 @@
             <asp:RequiredFieldValidator ID="rfv_Id" runat="server" ErrorMessage="需要輸入"
                  ControlToValidate="tb_Id" ForeColor="Maroon">
             </asp:RequiredFieldValidator><br />
-            <asp:Button ID="btn_Submit" runat="server" Text="送出" />
+            <asp:Button ID="btn_Submit" runat="server" Text="送出" OnClick="btn_Submit_Click" />
             <asp:Label ID="lb_Text" runat="server" Text=""></asp:Label>
         </div>
     </form>
