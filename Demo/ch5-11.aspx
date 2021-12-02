@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Wizard ID="wd_Steps" runat="server" Width="400px" Height="300px" ActiveStepIndex="0" OnFinishButtonClick="wd_Steps_FinishButtonClick" BorderColor="Black" BorderWidth="1px">
+            <asp:Wizard ID="wd_Steps" runat="server" Width="400px" Height="300px" ActiveStepIndex="4" OnFinishButtonClick="wd_Steps_FinishButtonClick" BorderColor="Black" BorderWidth="1px">
                 <HeaderTemplate>                    
                     <asp:Label ID="ctl00" runat="server" Text="這是範例標題"></asp:Label>
                 </HeaderTemplate>
